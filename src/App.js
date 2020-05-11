@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 /* import Questions from './components/questions'; */
 import Quiz from './components/Quiz'
+import { QuizData } from './components/QuizData';
 
 function App() {
   return (
     <div className="App">
  {/*      <Questions /> */}
+      <QuizData />
       <Quiz />
     </div>
   );

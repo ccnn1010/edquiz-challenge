@@ -8,15 +8,9 @@ export class Quiz extends Component{
         super(props)
         
         this.state = {
-            /* userAnswer: null,
-            currentIndex: 0,
-            options: [],
-            quizEnd: false,
-            score: 0,
-            disabled: true*/
-
 
             userAnswer: null,
+            answer:[],
             currentIndex: 0,
             correct_answer: '',
             incorrect_answers: [],
