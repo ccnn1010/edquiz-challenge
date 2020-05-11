@@ -13,7 +13,7 @@ class Questions extends Component {
         }
     }
 
-    //fetching results from API, 10 questions general questions medium difficulty category
+    //fetching results from API, from general questions multiple choice
     componentDidMount() {
         this.setState({ isLoading: true })
         /* this.setState({ question: true }); */
@@ -50,14 +50,14 @@ class Questions extends Component {
         return ( 
             <div>
                 <h1>edquiz</h1>
-               {/*  {trivia.map(trivia =>(
+               {/* {{trivia.map(trivia =>(
                     <>
                     <h3>{ trivia.question }</h3>
                     <p>{ trivia.correct_answer }</p>
                     <p>{ trivia.incorrect_answers }</p>
                     </>
-                ))} */}
-
+                ))}}
+ */}
 
             </div>
          ); 
